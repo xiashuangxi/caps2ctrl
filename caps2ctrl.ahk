@@ -20,8 +20,8 @@
 ; OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 ; SOFTWARE.
 
-; 当此程序已经运行时，用新的版本替换原来的版本 
-#SingleInstance Force
+; 当此程序已经运行时，打开一个新的程序，彼此不冲突
+#SingleInstance Off
 
 ; 在CapsLock按下时，执行按下Ctrl键等待CapsLock松开，当Ctrl松开时，将
 ; CapsLock键的状态还原。
